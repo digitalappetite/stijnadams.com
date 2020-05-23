@@ -1,0 +1,401 @@
+@media screen and (max-width: 767px) {
+    .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    section {
+        padding: 2em 0;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .section-heading h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen 
+    and (min-width: 768px)
+    and (max-width: 991px)
+{
+    .d-md-none {
+        display: block!important;
+    }
+
+    .col-md-3 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #services .col-md-4 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    #services .d-sm-none {
+        display: block!important;
+    }
+
+    #services .block {
+        display: flex;
+        text-align: left;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    #services .icon-title-wrapper {
+        flex-shrink: 0.5;
+        text-align: center;
+        width: 200px;
+    }
+
+    #services .role i.icon {
+        font-size: 2.5em;
+        margin-bottom: 12px;
+    }
+
+    #services .role h2.title {
+        margin: 0;
+        font-size: 1.25em;
+    }
+
+    #services .role .description {
+        margin-left: 32px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .col-xxs-12 {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen 
+  and (max-width: 414px) 
+{
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media screen
+    and (max-width: 575px) 
+{
+    .section-heading .left-border {
+        margin-bottom: 35px;
+    }
+
+    #services .block {
+        display: flex;
+        text-align: left;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    #services .icon-title-wrapper {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    #services .role {
+        padding: 24px;
+    }
+
+    #services .role i.icon {
+        font-size: 2em;
+        margin-bottom: 8px;
+    }
+
+    #services .role h2.title {
+        margin: 0;
+        font-size: 1.125em;
+        margin-left: 12px;
+    }
+
+    #services .role p.description {
+        font-size: 0.9375em;
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+
+    #skills div.skill {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: row;
+        flex: none;
+    }
+
+    #skills div.skill .icon {
+        font-size: 2em;
+        margin: 0;
+    }
+
+    #skills div.skill .text {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-left: 16px;
+    }
+
+    #skills h3 {
+        font-size: 1.125em;
+        margin-bottom: 4px;
+        line-height: 1.375em;
+    }
+    #skills p {
+        font-size: 0.875em;
+        font-weight: 300;
+        margin-bottom: 0px;
+    }  
+
+    #work .item {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    #work img.client-logo {
+        display: inline-block;
+        max-width: 40%;
+    }
+
+    #work .item .text-box {
+        display: inline-block;
+        padding: 0px 16px;
+    }
+}
+
+@media screen 
+    and (min-width: 375px) 
+    and (max-width: 575px) 
+{
+    #work .item .text-box h2.client-name {
+        font-size: 16px;
+    }
+
+    #work  .item .text-box p.role {
+        font-size: 15px;
+    }
+}
+
+@media screen 
+    and (max-width: 374px) 
+{
+    #work img.client-logo {
+        max-width: 35%;
+    }
+
+    #work .item .text-box h2.client-name {
+        font-size: 15px;
+    }
+
+    #work  .item .text-box p.role {
+        font-size: 14px;
+    }
+}
+
+@media screen 
+    and (max-width: 767px) 
+{
+    #skills h3 {
+        font-size: 1.125em;
+        margin-bottom: 4px;
+        line-height: 1.375em;
+    }
+    #skills p {
+        font-size: 0.9375em;
+    }  
+
+    #contact .d-sm-none {
+        display: block!important
+    }
+
+    #contact .item {
+        width: 100%;
+    }
+
+    #contact .item a {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    #contact .item div.icon-wrapper {
+        margin: 0;
+        height: 40px;
+        width: 40px;
+    }
+
+    #contact .item div.username {
+        font-size: 1.125em;
+        margin-left: 12px;
+        margin-top: 0px;
+    }
+}
+
+@media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 568px) 
+{
+    section {
+        padding: 3em 0;
+    }
+
+    #home .container {
+        margin-top: -10%;
+    }
+    
+    #home div.container-arrow-down {
+        visibility: hidden;
+    }  
+
+    #contact .item div.username {
+        margin-top: 4px;
+    }
+
+    .block {
+        -webkit-box-shadow: 3px 3px 3px 3px rgba(163, 174, 184, 0.375);
+        -moz-box-shadow: 3px 3px 3px 3px rgba(163, 174, 184, 0.375);
+        -ms-box-shadow: 3px 3px 3px 3px rgba(163, 174, 184, 0.375);
+        -o-box-shadow: 3px 3px 3px 3px rgba(163, 174, 184, 0.375);
+        box-shadow: 3px 3px 3px 3px rgba(163, 174, 184, 0.375);
+    }
+}
+
+@media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 320px) 
+{
+    #home .profile-container {
+        margin-top: -5%;
+        transform: scale(0.9);
+    }
+
+    #home img.profile-pic {
+        width: 160px; 
+        height: 160px; 
+        border: 2px solid white;
+    }
+    #home h1.roles {
+        font-size: 28px;
+    }
+    #home h2.contractor {
+        font-size: 18px;
+        line-height: 3p4x;
+    }
+
+    #services .role {
+        padding: 20px;
+    }
+    #services .role h2.title {
+        font-size: 1em;
+    }
+    #services .role p.description {
+        font-size: 0.875em;
+        font-weight: 300;
+    }
+
+    #skills div.skill .icon {
+        font-size: 2em;
+        margin: 0;
+    }
+
+    #skills h3 {
+        font-size: 1em;
+    }
+    #skills p {
+        font-size: 0.875em;
+        font-weight: 300;
+    }
+
+    #work .item .text-box h2.client-name {
+        font-size: 1em;
+    }
+
+    #work  .item .text-box p.role {
+        font-size: 0.875em;
+        margin-top: 0px;
+    }
+
+    #contact .item div.username {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-device-width: 414px) and (orientation: landscape),
+    screen and (max-device-height: 414px) and (orientation: landscape)   
+{
+    #navigation {
+        margin-top: 0;
+    }
+
+    #home .profile-container {
+        margin-top: -3%;
+    }
+
+    #home img.profile-pic {
+        width: 25vh; 
+        height: 25vh; 
+        border: 2px solid white;
+        margin-bottom: 2%;
+    }
+
+    #home h1.roles {
+        font-size: 24px;
+        font-weight: 400;
+        color: white;
+        margin: 0;
+    }
+    #home h2.contractor {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0 0 10px 0;
+    }
+
+    #home .icon-link {
+        height: 9vh;
+        width: 9vh;
+        max-height: 40px;
+        max-width: 40px;
+        min-height: 32px;
+        min-width: 32px;
+        background-color: red;
+    }
+
+    #home div.container-arrow-down {
+        visibility: hidden;
+    }
+}
+
+@media only screen 
+    and (min-device-height: 320px) 
+    and (max-device-height: 320px) 
+    and (orientation: landscape) 
+{
+    #home .profile-container {
+        margin-top: 7%;
+    }
+}

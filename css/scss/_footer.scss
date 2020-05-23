@@ -1,0 +1,18 @@
+$background-color: 0 !default;
+$font-family: 0 !default;
+
+#footer {
+    position: relative;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 4px;
+}
+
+#footer p.copyright {
+    font-size: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#footer p.copyright .icon {
+    margin-right: 2px;
+}

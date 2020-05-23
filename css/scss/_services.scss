@@ -1,0 +1,40 @@
+$background-color: 0 !default;
+$font-family: 0 !default;
+$color: 0 !default;
+$section-heading-text-color: 0 !default;
+$section-heading-bar-color: 0 !default;
+
+#services {
+    background-color: $background-color;
+}
+
+#services .section-heading h2 {
+    color: $section-heading-text-color
+}
+#services .section-heading h2:after {
+    background: $section-heading-bar-color;
+}
+
+#services .role {
+    position: relative;
+    padding: 32px;
+    text-align: center;
+    line-height: 1.5;
+    color: black;
+}
+#services .role i.icon {
+    font-size: 3em;
+    margin-bottom: 16px;
+    color: $color;
+}
+#services .role h2.title {
+    font-size: 1.375em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#services .role p.description {
+    margin-bottom: 0px;
+    font-weight: 300;
+    font-size: 1em;
+    color: #080808;
+}

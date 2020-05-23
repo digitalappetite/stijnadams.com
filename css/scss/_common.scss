@@ -1,0 +1,105 @@
+$background-color: 0 !default;
+$font-family: 0 !default;
+
+body {
+    position: relative;
+    height: 100%;
+    font-family: $font-family;
+    background: $background-color;
+}
+
+section {
+    padding: 4em 0;
+}
+
+.section-heading {
+    width: 100%;
+}
+.section-heading h2 {
+    position: relative;
+    display: block;
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    line-height: 1.5;
+    margin: 0 0 50px 0;
+}
+.section-heading h2:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #fff;
+    margin-left: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+ul.horizontal-list {
+    padding: 0;
+    margin: 0;
+}
+ul.horizontal-list li {
+    display: inline-block;
+    list-style: none;
+}
+
+.circle {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.block {
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    border-radius: 7px;
+    border: 0.5px solid #ccc;
+}
+@media (any-hover: hover) {
+    .block {
+        -webkit-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.5);
+        -moz-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.5);
+        -ms-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.5);
+        -o-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.5);
+        box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.5);
+    }
+}
+
+.js .to-animate {
+    opacity: 0;
+}
+
+
+.icon-link {
+    height: 40px;
+    width: 40px;
+}
+@media (any-hover: hover) {
+    .icon-link:hover {
+        transform: scale(1.25);
+    }
+}
+
+li.icon-link a {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+li.icon-link a:hover, li.icon-link a:active, li.icon-link a:focus {
+    text-decoration: none;
+}
+
+li.icon-link a i {
+    display: table-cell;
+    vertical-align: middle;
+}

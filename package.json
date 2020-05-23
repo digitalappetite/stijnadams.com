@@ -1,0 +1,33 @@
+{
+    "title": "Stijn Adams",
+    "name": "stijnadams",
+    "version": "1.0.0",
+    "description": "The homepage of stijnadams.com",
+    "scripts": {
+        "build": "node ./node_modules/sass/sass.js css/style.scss css/style.css",
+        "dev": "node ./node_modules/sass/sass.js css/style.scss css/style.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/digitalappetite/stijnadams.com.git"
+    },
+    "keywords": [
+        "stijnadams"
+    ],
+    "author": "Stijn Adams",
+    "contributors": [
+        "Stijn Adams (https://stijnadams.com)"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/digitalappetite/stijnadams.com/issues"
+    },
+    "homepage": "https://github.com/digitalappetite/stijnadams.com#readme",
+    "devDependencies": {
+        "sass": "^1.26.5"
+    },
+    "dependencies": {
+        "jquery": "^3.5.1",
+        "popper.js": "^1.16.1"
+    }
+}

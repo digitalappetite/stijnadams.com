@@ -1,0 +1,34 @@
+$background-color: 0 !default;
+$font-family: 0 !default;
+$section-heading-text-color: 0 !default;
+$section-heading-bar-color: 0 !default;
+
+#skills {
+    background-color: $background-color;
+    color: rgba(255, 255, 255);
+}
+
+#skills .section-heading h2 {
+    color: $section-heading-text-color
+}
+#skills .section-heading h2:after {
+    background: $section-heading-bar-color;
+}
+
+#skills .icon {
+    font-size: 40px;
+    margin-bottom: 16px;
+    display: -moz-inline-stack;
+    display: inline-block;
+}
+#skills h3 {
+    font-size: 1.25em;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+#skills p {
+    font-size: 1em;
+    font-weight: 300;
+    color: #F8F8F8;
+    margin-bottom: 0px;
+}

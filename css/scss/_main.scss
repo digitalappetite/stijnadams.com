@@ -1,0 +1,52 @@
+$background-color: #0f3e96;
+$font-family: "Nunito", Arial, sans-serif;
+
+@use 'common' with (
+    $background-color: $background-color,
+    $font-family: $font-family
+);
+
+@use 'navbar' with (
+    $background-color: $background-color,
+    $font-family: $font-family
+);
+
+@use 'home' with (
+    $background-color: $background-color,
+    $font-family: $font-family
+);
+
+@use 'services' with (
+    $background-color: #eee,
+    $font-family: $font-family,
+    $color: #0f3e96,
+    $section-heading-text-color: black,
+    $section-heading-bar-color: $background-color
+);
+
+@use 'skills' with (
+    $background-color: $background-color,
+    $font-family: $font-family,
+    $section-heading-text-color: white,
+    $section-heading-bar-color: rgba(255, 255, 255, 0.5)
+);
+
+@use 'work' with (
+    $background-color: #eee ,
+    $font-family: $font-family,
+    $section-heading-text-color: black,
+    $section-heading-bar-color: $background-color
+);
+
+@use 'contact' with (
+    $background-color: $background-color,
+    $font-family: $font-family,
+    $section-heading-text-color: white,
+    $section-heading-bar-color: rgba(255, 255, 255, 0.5)
+);
+
+@use 'footer' with (
+    $background-color: $background-color,
+    $font-family: $font-family
+);
+

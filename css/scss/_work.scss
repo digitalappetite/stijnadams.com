@@ -1,0 +1,60 @@
+$background-color: 0 !default;
+$font-family: 0 !default;
+$section-heading-text-color: 0 !default;
+$section-heading-bar-color: 0 !default;
+
+#work {
+    background-color: $background-color;
+}
+
+#work .section-heading h2 {
+    color: $section-heading-text-color
+}
+#work .section-heading h2:after {
+    background: $section-heading-bar-color;
+}
+
+#work .item {
+    position: relative;
+    top: 0;
+    width: 100%;
+    display: block;
+    background: #fff;
+    overflow: hidden;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+#work .item:hover, #work .item:focus {
+    text-decoration: none;
+    -webkit-box-shadow: 10px 20px 60px 5px rgba(0, 0, 0, 0.375);
+    -moz-box-shadow: 10px 20px 60px 5px rgba(0, 0, 0, 0.375);
+    -ms-box-shadow: 10px 20px 60px 5px rgba(0, 0, 0, 0.375);
+    -o-box-shadow: 10px 20px 60px 5px rgba(0, 0, 0, 0.375);
+    box-shadow: 10px 20px 60px 5px rgba(0, 0, 0, 0.375);
+}
+
+#work .item:hover img.client-logo, #work .item:focus img.client-logo {
+    opacity: .75;
+}
+
+    // #work .item:hover img.client-logo, #work .item:focus img.client-logo {
+    //     opacity: .75;
+    // }
+
+#work .item .text-box {
+    padding: 16px 16px 12px 16px;
+}
+#work .item .text-box h2.client-name {
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+    margin: 0;
+}
+#work .item .text-box p.role {
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+}

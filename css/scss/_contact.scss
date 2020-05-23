@@ -1,0 +1,63 @@
+$background-color: 0 !default;
+$font-family: 0 !default;
+$section-heading-text-color: 0 !default;
+$section-heading-bar-color: 0 !default;
+
+#contact {
+  padding-bottom: 3em;
+}
+
+#contact .section-heading h2 {
+    color: $section-heading-text-color
+}
+#contact .section-heading h2:after {
+    background: $section-heading-bar-color;
+}
+
+#contact .item a {
+    color: white;   
+}
+
+#contact .item div.icon-wrapper {
+    display: table; 
+    margin: auto;
+}
+
+#contact .item div.icon {
+    display: table-cell;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    background: transparent;
+    border: 1px solid white;
+}
+#contact .item a:hover div.icon {
+    background: #FFFFFF44;
+    border: 1px solid white;
+    text-decoration: none;
+    transform: scale(1.125);
+}
+
+
+#contact .item div.icon i {
+    font-size: 16px;
+}
+
+#contact .item div.username {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+// @media (any-hover: none) {
+//     #contact .item a.touching div.icon {
+//         background: rgba(255, 255, 255, 0.3);
+//         text-decoration: none;
+//     }
+
+//     #contact .item a.touching div.username {
+//         color: rgba(255, 255, 255, 0.75);
+//         text-decoration: none;
+//     }
+// }
