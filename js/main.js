@@ -115,9 +115,9 @@
     }
 
     function makeEmail() {
-        var user = "stijn",
+        var user = "hello",
             at = String.fromCharCode(Math.pow(2,6)),
-            domain = "digitalappetite",
+            domain = "cravingcode",
             extension = "be";
 
         return user + at + domain + '.' + extension
